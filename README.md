@@ -310,16 +310,6 @@ Create a new commit with the message Step 2 Complete and push the changes to Git
    - You should see a success message and a link to submit another response.
    - Check the `formSubmissions.txt` file in your project directory to verify that the submitted data was saved.
 
-Create a new commit with the message "Step 4 Part 2 Complete" and push the changes to GitHub.
-
-This approach simplifies the form handling process by:
-- Eliminating the need for a separate `parseBody` function.
-- Using the built-in `req.on('data')` and `req.on('end')` events to handle the incoming form data.
-- Directly parsing the form data using `URLSearchParams`, which is suitable for simple form submissions.
-
-The code now includes comments explaining each step of the process, making it easier for students to understand what's happening at each stage of form handling.
-
----
 Create a new commit with the message "Step 4 Complete" and push the changes to GitHub
 
 ### Step 5: Testing Your Server
