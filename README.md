@@ -200,7 +200,6 @@ Create a new commit with the message Step 2 Complete and push the changes to Git
     ```
 
 ---
-Create a new commit with the message Step 3 Complete and push the changes to GitHub# Renton Technical College CSI-244
 
 ### Step 4: Adding User Form Functionality
 
